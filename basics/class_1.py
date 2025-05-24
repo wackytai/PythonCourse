@@ -16,3 +16,4 @@ print(123,34, sep="--")
 # 'r' before a string can be used to show the escape chars
 print("This is a \"string\"")
 print(r"This is a \"string\" using r infront")
+print('Explícito', 'é', 'melhor " do que implícito')
