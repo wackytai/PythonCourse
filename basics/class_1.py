@@ -17,4 +17,13 @@ print(123,34, sep="--")
 print("This is a \"string\"")
 print(r"This is a \"string\" using r infront")
 print('Explícito', 'é', 'melhor " do que implícito')
-#print(type('this'))
+# print(type('this'))
+# type converstion, typecasting, coercion: str(1), int('1'), float('1'), bool()
+# for bool(): empty strings return false, white any size strings return true
+# bool('') = False | bool(' ') = True
+
+# variables:
+name = 'Luiz'
+age = 30
+bIsAgeMajority = age >= 18
+print(bIsAgeMajority)
