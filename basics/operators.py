@@ -1,4 +1,5 @@
-# add: +
+# Arithmetic operators:
+#  add: +
 #	if you add int with a float, the result will be a float
 # subtract: -
 # multiply: *
@@ -21,3 +22,34 @@ print(char * 10)
 # 3. * / // %
 # if you have several operators with same piro, it starts from the left
 # 4. * -
+
+# ----------------------------------------------------------------------------
+
+# Comparison operators:
+# > (greater)
+# >= (greater or equal)
+# < (less)
+# <= (less or equal)
+# == (equal)
+# != (not equal)
+# the result is always a bool of the result
+
+# ----------------------------------------------------------------------------
+
+# Logical operators:
+# AND
+# OR
+# NOT
+# Values considered as false: 0 0.0 "" False Null
+
+userInput = input("[E]nter or [Q]uit: ")
+userPassword = input("Enter password: ")
+
+allowedPassword = "123456"
+if userInput == 'E' and userPassword == allowedPassword:
+	print("Enter")
+elif userPassword != allowedPassword:
+	print("Wrong password")
+	print("Quit")
+else:
+	print("Quit")
