@@ -2,7 +2,7 @@ str1 = input("I will double the number you submit: ")
 f = ...
 
 """ if (str1.isdigit()):
-	f= float(str1)
+	f = float(str1)
 elif (str1.isdecimal()):
 	f = float(str1) """
 try:
