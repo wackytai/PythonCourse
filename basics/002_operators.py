@@ -24,6 +24,15 @@ print(char * 10) """
 # 4. * -
 
 # ----------------------------------------------------------------------------
+#Arithmetic Assignment operators:
+# add: += (i += 1 is the same as i = i + i)
+# subtract: -=
+# multiply:*=
+# power: **=
+# division: /=
+# floor division: //=
+# module: %=
+# ----------------------------------------------------------------------------
 
 # Comparison operators:
 # > (greater)
