@@ -5,8 +5,8 @@
 import sys
 
 def	check_input(value):
-	if value == "exit":
-		print(f"Goodbye.")
+	if value.lower() == "exit":
+		print(f"Goodbye")
 		sys.exit()
 
 def	get_info(question):
