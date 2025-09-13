@@ -40,7 +40,7 @@ while index < len:
 
 print("The loop reached its end AND skipped some parts of the loop")
 #------------------------------------------------------------------------------
-# While Loop inside another while Loop:
+# Nested While Loop:
 row = 0
 size = 9
 
@@ -56,3 +56,15 @@ while row < size:
         col += 1
     print()
     row += 1
+#------------------------------------------------------------------------------
+# While / Else (Python particularities):
+# When a while loop is executed completely (no breaks!), the else section comes in
+string = "random value"
+
+i = 0
+while i < len(string):
+    c = string[i]
+    print(c)
+    i += 1
+else:
+    print("Else section was executed")

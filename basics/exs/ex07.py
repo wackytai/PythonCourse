@@ -1,7 +1,7 @@
 # Creating a calculator with while loops:
 # 1) Ask the first number for the user
 # 2) Ask the second number for the user
-# 3) Ask which operator to use for the user (+ - / *)
+# I decided to use only floats just for the sake of simplicity
 import sys
 
 def	check_input(value):
