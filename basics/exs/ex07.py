@@ -42,7 +42,7 @@ while True:
 	while True:
 		input_value = get_info(1)
 		try:
-			nb1 = int(input_value)
+			nb1 = float(input_value)
 			break
 		except:
 			print(f"Invalid value. Try Again")
@@ -50,7 +50,7 @@ while True:
 	while True:
 		input_value = get_info(2)
 		try:
-			nb2 = int(input_value)
+			nb2 = float(input_value)
 			break
 		except:
 			print(f"Invalid value. Try Again")
