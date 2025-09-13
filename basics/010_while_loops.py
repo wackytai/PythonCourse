@@ -68,3 +68,20 @@ while i < len(string):
     i += 1
 else:
     print("Else section was executed")
+#------------------------------------------------------------------------------
+# Finding character with most repetitions:
+string = "O Python é uma linguagem de programação multiparadigma." \
+    "Python foi criado por Guido van Rossum"
+i = 0
+wanted_char = ''
+char_count = 0
+while i < len(string):
+	if string[i].isalpha():
+		c = string[i]
+		amount = string.count(c)
+		#print(f"{c} {amount}", end=" | ")
+		if amount > char_count:
+			char_count = amount
+			wanted_char = c
+	i += 1
+print(f"The most recurring char is '{wanted_char}': {char_count}times")
