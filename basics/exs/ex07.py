@@ -58,7 +58,7 @@ while True:
 	while True:
 		input_value = get_info(3)
 		if not check_operation(input_value):
-			print("Invalid operator. Try Again.")
+			print("Invalid operator. Try Again")
 			continue
 		else:
 			print(f"{apply_operation(nb1, nb2, input_value)}")
