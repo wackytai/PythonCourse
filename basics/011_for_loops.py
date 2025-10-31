@@ -20,4 +20,18 @@ for nb in range(0, maxNb, 2):
 #		print(next(c))
 #	except StopIteration:
 #		break
-	
+
+#for i in range(10):
+#	if i == 2:
+#		print("i equals 2, continuing...")
+#		continue
+#
+#	if i == 8:
+#		print("i equals 8, Else won't be executed")
+#		break
+#
+#	for j in range(1,3):
+#		print(i, j)
+#
+#else:
+#	print("For loop successfully completed!")
